@@ -1,0 +1,33 @@
+{
+  "format": "QR_CODE",
+  "type": "TEXT",
+  "bounds": {
+    "size": {
+      "height": 69.00000205636024,
+      "width": 77.625
+    },
+    "origin": {
+      "y": 110.3333366215229,
+      "x": 128.625
+    }
+  },
+  "dataRaw": "trust://wc?uri=wc%3A5e87bc8d-77a9-4ee7-9170-eed1508562fb%401%3Fbridge%3Dwss%253A%252F%252F4.bridge.walletconnect.org%26key%3De8a91cdcca828c947875f8ca40c41a4caf421e671689a277589331139da5a02b",
+  "data": "trust://wc?uri=wc%3A5e87bc8d-77a9-4ee7-9170-eed1508562fb%401%3Fbridge%3Dwss%253A%252F%252F4.bridge.walletconnect.org%26key%3De8a91cdcca828c947875f8ca40c41a4caf421e671689a277589331139da5a02b"
+}
+,
+{
+  "format": "EAN_13",
+  "type": "PRODUCT",
+  "bounds": {
+    "size": {
+      "height": 33.818182826042175,
+      "width": 74.45454545454545
+    },
+    "origin": {
+      "y": 237.81818890571594,
+      "x": 93.27272727272728
+    }
+  },
+  "dataRaw": "1234567890128",
+  "data": "1234567890128"
+}

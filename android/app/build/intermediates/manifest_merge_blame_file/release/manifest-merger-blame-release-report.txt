@@ -1,0 +1,303 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.googlemap"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->E:\task\Narad K\source\GoogleMap\GMP\GoogleMap\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->E:\task\Narad K\source\GoogleMap\GMP\GoogleMap\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->E:\task\Narad K\source\GoogleMap\GMP\GoogleMap\android\app\src\main\AndroidManifest.xml:3:5-67
+11-->E:\task\Narad K\source\GoogleMap\GMP\GoogleMap\android\app\src\main\AndroidManifest.xml:3:22-64
+12
+13    <!-- Required -->
+14    <!-- <uses-permission android:name="android.permission.CAMERA" /> -->
+15
+16
+17    <!-- Include this only if you are planning to use the camera roll -->
+18    <!-- <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> -->
+19    <!-- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> -->
+20
+21
+22    <!-- Include this only if you are planning to use the microphone for video recording -->
+23    <!-- <uses-permission android:name="android.permission.RECORD_AUDIO"/> -->
+24
+25    <uses-permission android:name="android.permission.BLUETOOTH" />
+25-->E:\task\Narad K\source\GoogleMap\GMP\GoogleMap\android\app\src\main\AndroidManifest.xml:15:5-68
+25-->E:\task\Narad K\source\GoogleMap\GMP\GoogleMap\android\app\src\main\AndroidManifest.xml:15:22-65
+26    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+26-->E:\task\Narad K\source\GoogleMap\GMP\GoogleMap\android\app\src\main\AndroidManifest.xml:16:5-74
+26-->E:\task\Narad K\source\GoogleMap\GMP\GoogleMap\android\app\src\main\AndroidManifest.xml:16:22-71
+27    <uses-permission android:name="android.permission.WAKE_LOCK" />
+27-->[:react-native-firebase_database] E:\task\Narad K\source\GoogleMap\GMP\GoogleMap\node_modules\@react-native-firebase\database\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-68
+27-->[:react-native-firebase_database] E:\task\Narad K\source\GoogleMap\GMP\GoogleMap\node_modules\@react-native-firebase\database\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:22-65
+28    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+28-->[:react-native-firebase_database] E:\task\Narad K\source\GoogleMap\GMP\GoogleMap\node_modules\@react-native-firebase\database\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-79
+28-->[:react-native-firebase_database] E:\task\Narad K\source\GoogleMap\GMP\GoogleMap\node_modules\@react-native-firebase\database\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:22-76
+29    <uses-permission android:name="android.permission.CAMERA" />
+29-->[:react-native-camera] E:\task\Narad K\source\GoogleMap\GMP\GoogleMap\node_modules\react-native-camera\android\build\intermediates\merged_manifest\mlkitRelease\AndroidManifest.xml:9:5-65
+29-->[:react-native-camera] E:\task\Narad K\source\GoogleMap\GMP\GoogleMap\node_modules\react-native-camera\android\build\intermediates\merged_manifest\mlkitRelease\AndroidManifest.xml:9:22-62
+30
+31    <uses-feature
+31-->[:react-native-camera] E:\task\Narad K\source\GoogleMap\GMP\GoogleMap\node_modules\react-native-camera\android\build\intermediates\merged_manifest\mlkitRelease\AndroidManifest.xml:11:5-13:36
+32        android:name="android.hardware.camera"
+32-->[:react-native-camera] E:\task\Narad K\source\GoogleMap\GMP\GoogleMap\node_modules\react-native-camera\android\build\intermediates\merged_manifest\mlkitRelease\AndroidManifest.xml:12:9-47
+33        android:required="false" />
+33-->[:react-native-camera] E:\task\Narad K\source\GoogleMap\GMP\GoogleMap\node_modules\react-native-camera\android\build\intermediates\merged_manifest\mlkitRelease\AndroidManifest.xml:13:9-33
+34    <uses-feature
+34-->[:react-native-camera] E:\task\Narad K\source\GoogleMap\GMP\GoogleMap\node_modules\react-native-camera\android\build\intermediates\merged_manifest\mlkitRelease\AndroidManifest.xml:14:5-16:36
+35        android:name="android.hardware.camera.autofocus"
+35-->[:react-native-camera] E:\task\Narad K\source\GoogleMap\GMP\GoogleMap\node_modules\react-native-camera\android\build\intermediates\merged_manifest\mlkitRelease\AndroidManifest.xml:15:9-57
+36        android:required="false" />
+36-->[:react-native-camera] E:\task\Narad K\source\GoogleMap\GMP\GoogleMap\node_modules\react-native-camera\android\build\intermediates\merged_manifest\mlkitRelease\AndroidManifest.xml:16:9-33
+37
+38    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+38-->[:react-native-maps] E:\task\Narad K\source\GoogleMap\GMP\GoogleMap\node_modules\react-native-maps\lib\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-81
+38-->[:react-native-maps] E:\task\Narad K\source\GoogleMap\GMP\GoogleMap\node_modules\react-native-maps\lib\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:22-78
+39    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+39-->[:tp-react-native-bluetooth-printer] E:\task\Narad K\source\GoogleMap\GMP\GoogleMap\node_modules\tp-react-native-bluetooth-printer\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:12:5-79
+39-->[:tp-react-native-bluetooth-printer] E:\task\Narad K\source\GoogleMap\GMP\GoogleMap\node_modules\tp-react-native-bluetooth-printer\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:12:22-76
+40
+41    <uses-feature
+41-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\SMILE\.gradle\caches\transforms-3\f1b349d2a3f9ee031e775249d8f511ad\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+42        android:glEsVersion="0x00020000"
+42-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\SMILE\.gradle\caches\transforms-3\f1b349d2a3f9ee031e775249d8f511ad\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+43        android:required="true" />
+43-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\SMILE\.gradle\caches\transforms-3\f1b349d2a3f9ee031e775249d8f511ad\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+44
+45    <application
+45-->E:\task\Narad K\source\GoogleMap\GMP\GoogleMap\android\app\src\main\AndroidManifest.xml:18:5-42:19
+46        android:name="com.googlemap.MainApplication"
+46-->E:\task\Narad K\source\GoogleMap\GMP\GoogleMap\android\app\src\main\AndroidManifest.xml:19:7-38
+47        android:allowBackup="false"
+47-->E:\task\Narad K\source\GoogleMap\GMP\GoogleMap\android\app\src\main\AndroidManifest.xml:23:7-34
+48        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+48-->[androidx.core:core:1.2.0] C:\Users\SMILE\.gradle\caches\transforms-3\d8229fe6b2123d726ec0b8bf7b58bc93\transformed\core-1.2.0\AndroidManifest.xml:24:18-86
+49        android:icon="@mipmap/ic_launcher"
+49-->E:\task\Narad K\source\GoogleMap\GMP\GoogleMap\android\app\src\main\AndroidManifest.xml:21:7-41
+50        android:label="@string/app_name"
+50-->E:\task\Narad K\source\GoogleMap\GMP\GoogleMap\android\app\src\main\AndroidManifest.xml:20:7-39
+51        android:roundIcon="@mipmap/ic_launcher_round"
+51-->E:\task\Narad K\source\GoogleMap\GMP\GoogleMap\android\app\src\main\AndroidManifest.xml:22:7-52
+52        android:theme="@style/AppTheme" >
+52-->E:\task\Narad K\source\GoogleMap\GMP\GoogleMap\android\app\src\main\AndroidManifest.xml:24:7-38
+53        <activity
+53-->E:\task\Narad K\source\GoogleMap\GMP\GoogleMap\android\app\src\main\AndroidManifest.xml:25:7-35:18
+54            android:name="com.googlemap.MainActivity"
+54-->E:\task\Narad K\source\GoogleMap\GMP\GoogleMap\android\app\src\main\AndroidManifest.xml:26:9-37
+55            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+55-->E:\task\Narad K\source\GoogleMap\GMP\GoogleMap\android\app\src\main\AndroidManifest.xml:28:9-86
+56            android:label="@string/app_name"
+56-->E:\task\Narad K\source\GoogleMap\GMP\GoogleMap\android\app\src\main\AndroidManifest.xml:27:9-41
+57            android:launchMode="singleTask"
+57-->E:\task\Narad K\source\GoogleMap\GMP\GoogleMap\android\app\src\main\AndroidManifest.xml:29:9-40
+58            android:windowSoftInputMode="adjustPan" >
+58-->E:\task\Narad K\source\GoogleMap\GMP\GoogleMap\android\app\src\main\AndroidManifest.xml:30:9-48
+59            <intent-filter>
+59-->E:\task\Narad K\source\GoogleMap\GMP\GoogleMap\android\app\src\main\AndroidManifest.xml:31:9-34:25
+60                <action android:name="android.intent.action.MAIN" />
+60-->E:\task\Narad K\source\GoogleMap\GMP\GoogleMap\android\app\src\main\AndroidManifest.xml:32:13-65
+60-->E:\task\Narad K\source\GoogleMap\GMP\GoogleMap\android\app\src\main\AndroidManifest.xml:32:21-62
+61
+62                <category android:name="android.intent.category.LAUNCHER" />
+62-->E:\task\Narad K\source\GoogleMap\GMP\GoogleMap\android\app\src\main\AndroidManifest.xml:33:13-73
+62-->E:\task\Narad K\source\GoogleMap\GMP\GoogleMap\android\app\src\main\AndroidManifest.xml:33:23-70
+63            </intent-filter>
+64        </activity>
+65
+66        <meta-data
+66-->E:\task\Narad K\source\GoogleMap\GMP\GoogleMap\android\app\src\main\AndroidManifest.xml:36:7-38:66
+67            android:name="com.google.android.geo.API_KEY"
+67-->E:\task\Narad K\source\GoogleMap\GMP\GoogleMap\android\app\src\main\AndroidManifest.xml:37:9-54
+68            android:value="AIzaSyB4qv8Wq8O1d9ChrneRklPUbeHly3PJSy4" />
+68-->E:\task\Narad K\source\GoogleMap\GMP\GoogleMap\android\app\src\main\AndroidManifest.xml:38:9-64
+69
+70        <!-- You will also only need to add this uses-library tag -->
+71        <uses-library
+71-->E:\task\Narad K\source\GoogleMap\GMP\GoogleMap\android\app\src\main\AndroidManifest.xml:41:7-85
+72            android:name="org.apache.http.legacy"
+72-->E:\task\Narad K\source\GoogleMap\GMP\GoogleMap\android\app\src\main\AndroidManifest.xml:41:21-58
+73            android:required="false" />
+73-->E:\task\Narad K\source\GoogleMap\GMP\GoogleMap\android\app\src\main\AndroidManifest.xml:41:59-83
+74
+75        <meta-data
+75-->[:react-native-firebase_app] E:\task\Narad K\source\GoogleMap\GMP\GoogleMap\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-12:36
+76            android:name="app_data_collection_default_enabled"
+76-->[:react-native-firebase_app] E:\task\Narad K\source\GoogleMap\GMP\GoogleMap\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-63
+77            android:value="true" />
+77-->[:react-native-firebase_app] E:\task\Narad K\source\GoogleMap\GMP\GoogleMap\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-33
+78
+79        <service
+79-->[:react-native-firebase_app] E:\task\Narad K\source\GoogleMap\GMP\GoogleMap\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:14:9-18:19
+80            android:name="com.google.firebase.components.ComponentDiscoveryService"
+80-->[:react-native-firebase_app] E:\task\Narad K\source\GoogleMap\GMP\GoogleMap\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:14:18-89
+81            android:directBootAware="true"
+81-->[com.google.firebase:firebase-common:20.0.0] C:\Users\SMILE\.gradle\caches\transforms-3\1eaf747b227c8b31d773420a64a1b5de\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+82            android:exported="false" >
+82-->[com.google.firebase:firebase-database:20.0.3] C:\Users\SMILE\.gradle\caches\transforms-3\ad561693c8533cfa4d8778f9b2ab087e\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:31:13-37
+83            <meta-data
+83-->[:react-native-firebase_app] E:\task\Narad K\source\GoogleMap\GMP\GoogleMap\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-17:85
+84                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+84-->[:react-native-firebase_app] E:\task\Narad K\source\GoogleMap\GMP\GoogleMap\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:16:17-120
+85                android:value="com.google.firebase.components.ComponentRegistrar" />
+85-->[:react-native-firebase_app] E:\task\Narad K\source\GoogleMap\GMP\GoogleMap\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:17:17-82
+86            <meta-data
+86-->[com.google.firebase:firebase-database:20.0.3] C:\Users\SMILE\.gradle\caches\transforms-3\ad561693c8533cfa4d8778f9b2ab087e\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:32:13-34:85
+87                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+87-->[com.google.firebase:firebase-database:20.0.3] C:\Users\SMILE\.gradle\caches\transforms-3\ad561693c8533cfa4d8778f9b2ab087e\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:33:17-109
+88                android:value="com.google.firebase.components.ComponentRegistrar" />
+88-->[com.google.firebase:firebase-database:20.0.3] C:\Users\SMILE\.gradle\caches\transforms-3\ad561693c8533cfa4d8778f9b2ab087e\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:34:17-82
+89        </service>
+90
+91        <provider
+91-->[:react-native-firebase_app] E:\task\Narad K\source\GoogleMap\GMP\GoogleMap\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:20:9-24:38
+92            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+92-->[:react-native-firebase_app] E:\task\Narad K\source\GoogleMap\GMP\GoogleMap\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:21:13-88
+93            android:authorities="com.googlemap.reactnativefirebaseappinitprovider"
+93-->[:react-native-firebase_app] E:\task\Narad K\source\GoogleMap\GMP\GoogleMap\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:22:13-86
+94            android:exported="false"
+94-->[:react-native-firebase_app] E:\task\Narad K\source\GoogleMap\GMP\GoogleMap\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:23:13-37
+95            android:initOrder="99" />
+95-->[:react-native-firebase_app] E:\task\Narad K\source\GoogleMap\GMP\GoogleMap\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:24:13-35
+96
+97        <service
+97-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] C:\Users\SMILE\.gradle\caches\transforms-3\058d25822be7cd6315611de79757af4c\transformed\jetified-play-services-mlkit-text-recognition-16.3.0\AndroidManifest.xml:9:9-15:19
+98            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+98-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] C:\Users\SMILE\.gradle\caches\transforms-3\058d25822be7cd6315611de79757af4c\transformed\jetified-play-services-mlkit-text-recognition-16.3.0\AndroidManifest.xml:10:13-91
+99            android:directBootAware="true"
+99-->[com.google.mlkit:common:17.2.0] C:\Users\SMILE\.gradle\caches\transforms-3\e3f060f3c46f900d4ffb5f614a5fcd71\transformed\jetified-common-17.2.0\AndroidManifest.xml:17:13-43
+100            android:exported="false" >
+100-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] C:\Users\SMILE\.gradle\caches\transforms-3\058d25822be7cd6315611de79757af4c\transformed\jetified-play-services-mlkit-text-recognition-16.3.0\AndroidManifest.xml:11:13-37
+101            <meta-data
+101-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] C:\Users\SMILE\.gradle\caches\transforms-3\058d25822be7cd6315611de79757af4c\transformed\jetified-play-services-mlkit-text-recognition-16.3.0\AndroidManifest.xml:12:13-14:85
+102                android:name="com.google.firebase.components:com.google.mlkit.vision.text.internal.TextRegistrar"
+102-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] C:\Users\SMILE\.gradle\caches\transforms-3\058d25822be7cd6315611de79757af4c\transformed\jetified-play-services-mlkit-text-recognition-16.3.0\AndroidManifest.xml:13:17-114
+103                android:value="com.google.firebase.components.ComponentRegistrar" />
+103-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] C:\Users\SMILE\.gradle\caches\transforms-3\058d25822be7cd6315611de79757af4c\transformed\jetified-play-services-mlkit-text-recognition-16.3.0\AndroidManifest.xml:14:17-82
+104            <meta-data
+104-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] C:\Users\SMILE\.gradle\caches\transforms-3\bb4853dab17e699b94211edfbe763c40\transformed\jetified-play-services-mlkit-barcode-scanning-16.2.0\AndroidManifest.xml:12:13-14:85
+105                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+105-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] C:\Users\SMILE\.gradle\caches\transforms-3\bb4853dab17e699b94211edfbe763c40\transformed\jetified-play-services-mlkit-barcode-scanning-16.2.0\AndroidManifest.xml:13:17-120
+106                android:value="com.google.firebase.components.ComponentRegistrar" />
+106-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] C:\Users\SMILE\.gradle\caches\transforms-3\bb4853dab17e699b94211edfbe763c40\transformed\jetified-play-services-mlkit-barcode-scanning-16.2.0\AndroidManifest.xml:14:17-82
+107            <meta-data
+107-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] C:\Users\SMILE\.gradle\caches\transforms-3\99556e53a42227df3f7cbdb8be7fbf3d\transformed\jetified-play-services-mlkit-face-detection-16.2.0\AndroidManifest.xml:12:13-14:85
+108                android:name="com.google.firebase.components:com.google.mlkit.vision.face.internal.FaceRegistrar"
+108-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] C:\Users\SMILE\.gradle\caches\transforms-3\99556e53a42227df3f7cbdb8be7fbf3d\transformed\jetified-play-services-mlkit-face-detection-16.2.0\AndroidManifest.xml:13:17-114
+109                android:value="com.google.firebase.components.ComponentRegistrar" />
+109-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] C:\Users\SMILE\.gradle\caches\transforms-3\99556e53a42227df3f7cbdb8be7fbf3d\transformed\jetified-play-services-mlkit-face-detection-16.2.0\AndroidManifest.xml:14:17-82
+110            <meta-data
+110-->[com.google.mlkit:vision-common:16.5.0] C:\Users\SMILE\.gradle\caches\transforms-3\799af150cf913735b684ab7fdb4db0af\transformed\jetified-vision-common-16.5.0\AndroidManifest.xml:12:13-14:85
+111                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+111-->[com.google.mlkit:vision-common:16.5.0] C:\Users\SMILE\.gradle\caches\transforms-3\799af150cf913735b684ab7fdb4db0af\transformed\jetified-vision-common-16.5.0\AndroidManifest.xml:13:17-124
+112                android:value="com.google.firebase.components.ComponentRegistrar" />
+112-->[com.google.mlkit:vision-common:16.5.0] C:\Users\SMILE\.gradle\caches\transforms-3\799af150cf913735b684ab7fdb4db0af\transformed\jetified-vision-common-16.5.0\AndroidManifest.xml:14:17-82
+113            <meta-data
+113-->[com.google.mlkit:common:17.2.0] C:\Users\SMILE\.gradle\caches\transforms-3\e3f060f3c46f900d4ffb5f614a5fcd71\transformed\jetified-common-17.2.0\AndroidManifest.xml:20:13-22:85
+114                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+114-->[com.google.mlkit:common:17.2.0] C:\Users\SMILE\.gradle\caches\transforms-3\e3f060f3c46f900d4ffb5f614a5fcd71\transformed\jetified-common-17.2.0\AndroidManifest.xml:21:17-120
+115                android:value="com.google.firebase.components.ComponentRegistrar" />
+115-->[com.google.mlkit:common:17.2.0] C:\Users\SMILE\.gradle\caches\transforms-3\e3f060f3c46f900d4ffb5f614a5fcd71\transformed\jetified-common-17.2.0\AndroidManifest.xml:22:17-82
+116        </service>
+117
+118        <provider
+118-->[com.google.mlkit:common:17.2.0] C:\Users\SMILE\.gradle\caches\transforms-3\e3f060f3c46f900d4ffb5f614a5fcd71\transformed\jetified-common-17.2.0\AndroidManifest.xml:9:9-13:38
+119            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+119-->[com.google.mlkit:common:17.2.0] C:\Users\SMILE\.gradle\caches\transforms-3\e3f060f3c46f900d4ffb5f614a5fcd71\transformed\jetified-common-17.2.0\AndroidManifest.xml:10:13-78
+120            android:authorities="com.googlemap.mlkitinitprovider"
+120-->[com.google.mlkit:common:17.2.0] C:\Users\SMILE\.gradle\caches\transforms-3\e3f060f3c46f900d4ffb5f614a5fcd71\transformed\jetified-common-17.2.0\AndroidManifest.xml:11:13-69
+121            android:exported="false"
+121-->[com.google.mlkit:common:17.2.0] C:\Users\SMILE\.gradle\caches\transforms-3\e3f060f3c46f900d4ffb5f614a5fcd71\transformed\jetified-common-17.2.0\AndroidManifest.xml:12:13-37
+122            android:initOrder="99" />
+122-->[com.google.mlkit:common:17.2.0] C:\Users\SMILE\.gradle\caches\transforms-3\e3f060f3c46f900d4ffb5f614a5fcd71\transformed\jetified-common-17.2.0\AndroidManifest.xml:13:13-35
+123
+124        <service
+124-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\SMILE\.gradle\caches\transforms-3\4c6ac585fe104fcfe66b087dfbfe80f4\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+125            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+125-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\SMILE\.gradle\caches\transforms-3\4c6ac585fe104fcfe66b087dfbfe80f4\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+126            android:exported="false" >
+126-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\SMILE\.gradle\caches\transforms-3\4c6ac585fe104fcfe66b087dfbfe80f4\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+127            <meta-data
+127-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\SMILE\.gradle\caches\transforms-3\4c6ac585fe104fcfe66b087dfbfe80f4\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+128                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+128-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\SMILE\.gradle\caches\transforms-3\4c6ac585fe104fcfe66b087dfbfe80f4\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+129                android:value="cct" />
+129-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\SMILE\.gradle\caches\transforms-3\4c6ac585fe104fcfe66b087dfbfe80f4\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+130        </service>
+131        <service
+131-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\SMILE\.gradle\caches\transforms-3\a1023b2ddd44ed7d6f7d98bdb48d7eaf\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:26:9-30:19
+132            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+132-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\SMILE\.gradle\caches\transforms-3\a1023b2ddd44ed7d6f7d98bdb48d7eaf\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:27:13-117
+133            android:exported="false"
+133-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\SMILE\.gradle\caches\transforms-3\a1023b2ddd44ed7d6f7d98bdb48d7eaf\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:28:13-37
+134            android:permission="android.permission.BIND_JOB_SERVICE" >
+134-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\SMILE\.gradle\caches\transforms-3\a1023b2ddd44ed7d6f7d98bdb48d7eaf\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:29:13-69
+135        </service>
+136
+137        <receiver
+137-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\SMILE\.gradle\caches\transforms-3\a1023b2ddd44ed7d6f7d98bdb48d7eaf\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:32:9-34:40
+138            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+138-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\SMILE\.gradle\caches\transforms-3\a1023b2ddd44ed7d6f7d98bdb48d7eaf\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:33:13-132
+139            android:exported="false" />
+139-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\SMILE\.gradle\caches\transforms-3\a1023b2ddd44ed7d6f7d98bdb48d7eaf\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:34:13-37
+140
+141        <activity
+141-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\SMILE\.gradle\caches\transforms-3\7a10170dbe7974bc39d1abd071aba03d\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:23:9-27:75
+142            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+142-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\SMILE\.gradle\caches\transforms-3\7a10170dbe7974bc39d1abd071aba03d\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:24:13-93
+143            android:excludeFromRecents="true"
+143-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\SMILE\.gradle\caches\transforms-3\7a10170dbe7974bc39d1abd071aba03d\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:25:13-46
+144            android:exported="false"
+144-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\SMILE\.gradle\caches\transforms-3\7a10170dbe7974bc39d1abd071aba03d\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:26:13-37
+145            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+145-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\SMILE\.gradle\caches\transforms-3\7a10170dbe7974bc39d1abd071aba03d\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:27:13-72
+146        <!--
+147            Service handling Google Sign-In user revocation. For apps that do not integrate with
+148            Google Sign-In, this service will never be started.
+149        -->
+150        <service
+150-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\SMILE\.gradle\caches\transforms-3\7a10170dbe7974bc39d1abd071aba03d\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:33:9-37:51
+151            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+151-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\SMILE\.gradle\caches\transforms-3\7a10170dbe7974bc39d1abd071aba03d\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:34:13-89
+152            android:exported="true"
+152-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\SMILE\.gradle\caches\transforms-3\7a10170dbe7974bc39d1abd071aba03d\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:35:13-36
+153            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+153-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\SMILE\.gradle\caches\transforms-3\7a10170dbe7974bc39d1abd071aba03d\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:36:13-107
+154            android:visibleToInstantApps="true" />
+154-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\SMILE\.gradle\caches\transforms-3\7a10170dbe7974bc39d1abd071aba03d\transformed\jetified-play-services-auth-19.2.0\AndroidManifest.xml:37:13-48
+155
+156        <activity
+156-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\SMILE\.gradle\caches\transforms-3\17f39d11019d47c33055f10cb718b756\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:23:9-26:75
+157            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+157-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\SMILE\.gradle\caches\transforms-3\17f39d11019d47c33055f10cb718b756\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:24:13-79
+158            android:exported="false"
+158-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\SMILE\.gradle\caches\transforms-3\17f39d11019d47c33055f10cb718b756\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:25:13-37
+159            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+159-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\SMILE\.gradle\caches\transforms-3\17f39d11019d47c33055f10cb718b756\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:26:13-72
+160
+161        <provider
+161-->[com.google.firebase:firebase-common:20.0.0] C:\Users\SMILE\.gradle\caches\transforms-3\1eaf747b227c8b31d773420a64a1b5de\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+162            android:name="com.google.firebase.provider.FirebaseInitProvider"
+162-->[com.google.firebase:firebase-common:20.0.0] C:\Users\SMILE\.gradle\caches\transforms-3\1eaf747b227c8b31d773420a64a1b5de\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+163            android:authorities="com.googlemap.firebaseinitprovider"
+163-->[com.google.firebase:firebase-common:20.0.0] C:\Users\SMILE\.gradle\caches\transforms-3\1eaf747b227c8b31d773420a64a1b5de\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+164            android:directBootAware="true"
+164-->[com.google.firebase:firebase-common:20.0.0] C:\Users\SMILE\.gradle\caches\transforms-3\1eaf747b227c8b31d773420a64a1b5de\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+165            android:exported="false"
+165-->[com.google.firebase:firebase-common:20.0.0] C:\Users\SMILE\.gradle\caches\transforms-3\1eaf747b227c8b31d773420a64a1b5de\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+166            android:initOrder="100" />
+166-->[com.google.firebase:firebase-common:20.0.0] C:\Users\SMILE\.gradle\caches\transforms-3\1eaf747b227c8b31d773420a64a1b5de\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+167
+168        <meta-data
+168-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\SMILE\.gradle\caches\transforms-3\bb14fab8ce28dad23b0b13197c077c3b\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:23:9-25:69
+169            android:name="com.google.android.gms.version"
+169-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\SMILE\.gradle\caches\transforms-3\bb14fab8ce28dad23b0b13197c077c3b\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:24:13-58
+170            android:value="@integer/google_play_services_version" />
+170-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\SMILE\.gradle\caches\transforms-3\bb14fab8ce28dad23b0b13197c077c3b\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:25:13-66
+171    </application>
+172
+173</manifest>

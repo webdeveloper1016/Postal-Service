@@ -1,0 +1,7 @@
+#Mon Dec 20 08:25:28 PST 2021
+base.1=E\:\\task\\Narad K\\source\\GoogleMap\\GMP\\GoogleMap\\android\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes2.dex
+path.1=classes2.dex
+base.0=E\:\\task\\Narad K\\source\\GoogleMap\\GMP\\GoogleMap\\android\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "306449153056",
+    "project_id": "studious-apex-332520",
+    "storage_bucket": "studious-apex-332520.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:306449153056:android:47a65629e2e55bd584d045",
+        "android_client_info": {
+          "package_name": "com.googlemap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "306449153056-705f991o796m4bi70k9vpmvc9i2utbia.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.googlemap",
+            "certificate_hash": "936261ea5a2c01271ae0440cb64c7e1fc645e2b3"
+          }
+        },
+        {
+          "client_id": "306449153056-5r0bt2l7568rkeuhk2t5e9mstn7960ca.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUOz6u7vOzoW2Iv5i4Teh-ljhcieXzLpQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "306449153056-5r0bt2l7568rkeuhk2t5e9mstn7960ca.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
