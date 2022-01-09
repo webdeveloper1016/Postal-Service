@@ -4,6 +4,8 @@ const DriverScreen = () => {
     return(
         <View>
             <Text>O K</Text>
+            <Text>O K</Text>
+            <Text>O K</Text>
         </View>
     )
 }
